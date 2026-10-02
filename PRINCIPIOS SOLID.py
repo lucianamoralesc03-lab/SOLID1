@@ -1,3 +1,4 @@
+#Single Responsibility Principle (Responsabilidad Única)
 class Reporte:
     def __init__(self, contenido):
         self.contenido = contenido
@@ -8,6 +9,7 @@ class GuardadorReporte:
         with open(ruta, "w") as f:
             f.write(reporte.contenido)
 
+#Open/Closed Principle (Abierto/Cerrado)
 class Descuento:
     def aplicar(self, precio):
         return precio
@@ -22,6 +24,7 @@ class DescuentoEstudiante(Descuento):
     def aplicar(self, precio):
         return precio * 0.9
 
+#Liskov Substitution Principle (Sustitución de Liskov)
 class Ave:
     pass
 class AveVoladora(Ave):
@@ -34,25 +37,22 @@ class Pinguino(Ave):
 
 from abc import ABC, abstractmethod
 
-
+#Interface Segregation Principle (Segregación de Interfaces)
 class Impresora(ABC):
     @abstractmethod
     def imprimir(self):
         pass
-
-
 class Escaner(ABC):
     @abstractmethod
     def escanear(self):
         pass
-
-
 class ImpresoraSencilla(Impresora):
     def imprimir(self):
         print("Imprimiendo documento...")
 
         from abc import ABC, abstractmethod
 
+#Dependency Inversion Principle (Inversión de Dependencias)
         class ServicioMensaje(ABC):
             @abstractmethod
             def enviar(self, msg):

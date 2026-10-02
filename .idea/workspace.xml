@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e29ef4-600b-4f98-825f-c89accd464bb" name="Changes" comment="TERCER COMMIT">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRINCIPIOS SOLID.py" beforeDir="false" afterPath="$PROJECT_DIR$/PRINCIPIOS SOLID.py" afterDir="false" />
-    </list>
+    <list default="true" id="12e29ef4-600b-4f98-825f-c89accd464bb" name="Changes" comment="QUINTO COMMIT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,13 +90,39 @@
       <option name="project" value="LOCAL" />
       <updated>1790979941724</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TERCER COMMIT">
+      <option name="closed" value="true" />
+      <created>1790980171051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790980171051</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CUARTO COMMIT">
+      <option name="closed" value="true" />
+      <created>1790980392284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790980392284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="QUINTO COMMIT">
+      <option name="closed" value="true" />
+      <created>1790980464878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790980464878</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PRIMER COMMIT" />
     <MESSAGE value="SEGUNDO COMMIT" />
     <MESSAGE value="TERCER COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="TERCER COMMIT" />
+    <MESSAGE value="CUARTO COMMIT" />
+    <MESSAGE value="QUINTO COMMIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="QUINTO COMMIT" />
   </component>
 </project>
