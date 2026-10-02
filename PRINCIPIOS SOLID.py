@@ -21,3 +21,12 @@ class DescuentoVIP(Descuento):
 class DescuentoEstudiante(Descuento):
     def aplicar(self, precio):
         return precio * 0.9
+
+class Ave:
+    pass
+class AveVoladora(Ave):
+        def volar(self):
+            return "Volando..."
+class Pinguino(Ave):
+    def nadar(self):
+        return "Nadando..."
